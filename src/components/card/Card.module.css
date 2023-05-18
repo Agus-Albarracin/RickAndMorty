@@ -1,0 +1,50 @@
+.container {
+margin-top: 50px;
+border: 2px solid rgb(253, 253, 253);
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.616);
+width: 170px;
+padding: 10px;
+box-shadow: 0 0 10px rgb(81, 253, 1);
+
+}
+.container:hover{
+    border: 2px solid rgb(23, 253, 2);
+}
+
+.fotitos{
+    width: 150px;
+}
+
+
+/* Boton Exit */
+
+/* div del boton (el que lo mueve) */
+.divButtonCont{
+    padding-left: 80%;
+}
+
+/* diseño del boton */
+.buttonCont{
+    background-color: red;
+    border: 2px solid rgb(206, 1, 1);
+    border-radius: 100%;
+    
+}
+
+/* nombres de la data de los personajes */
+.divDataCont{
+    
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+    letter-spacing: 0.15em;
+}
+
+/* nombre del personaje de la carta */
+.divDataNameCont{
+    
+font-family: 'Nosifer', cursive;
+-webkit-text-stroke: 0.5px rgb(23, 253, 2);
+color:#1169bb;
+}
+

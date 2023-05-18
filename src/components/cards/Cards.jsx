@@ -1,9 +1,10 @@
-import Card from './Card';
+import Card from '../card/Card';
 
 export default function Cards( {characters} ) {
  
    return (
-   <div> 
+   <div style={{display: 'flex',
+      justifyContent: 'space-between'}}> 
 
  {characters.map(character =>(
     <Card
