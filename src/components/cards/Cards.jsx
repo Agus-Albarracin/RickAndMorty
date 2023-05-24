@@ -5,7 +5,9 @@ export default function Cards( {characters, onClose} ) {
  
    return (
    <div style={{display: 'flex',
-      justifyContent: 'space-between'}}> 
+                justifyContent: 'space-between',
+                
+      }}> 
 
  {characters.map(character =>(
     <Card

@@ -1,4 +1,5 @@
 import styles from './Card.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Card(props) {
    return (
@@ -7,21 +8,29 @@ export default function Card(props) {
       <div className={styles.container}>
 
 
-     //button Close 
+    
          <div className={styles.divButtonCont}>
         <button className={styles.buttonCont} onClick={() => props.onClose(props.id)}> X </button>
   
         </div>
-        
-     //fin button Close
 
 
-//div de la data
+
+    
+<Link to={`/detail/${props.id}`} >
          <div className={styles.divDataCont}>
 
-       
+    
                 <div className={styles.divDataNameCont}>
+
+               
+
                 <h2>{props.name}</h2>
+
+                  
+                
+               
+                         
                 </div>
          
 
@@ -35,9 +44,6 @@ export default function Card(props) {
          <h2>{props.origin}</h2>
 
          </div>
-
-        
-         
-
+</Link> 
 
       </div> );}

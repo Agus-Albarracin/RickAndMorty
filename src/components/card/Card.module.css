@@ -4,9 +4,9 @@ border: 2px solid rgb(253, 253, 253);
 border-radius: 10px;
 background-color: rgba(0, 0, 0, 0.616);
 width: 170px;
-padding: 10px;
+padding: 47px;
 box-shadow: 0 0 10px rgb(81, 253, 1);
-
+margin: 15px auto;
 }
 .container:hover{
     border: 2px solid rgb(23, 253, 2);
@@ -21,7 +21,7 @@ box-shadow: 0 0 10px rgb(81, 253, 1);
 
 /* div del boton (el que lo mueve) */
 .divButtonCont{
-    padding-left: 80%;
+  margin-left: 180px;
 }
 
 /* diseño del boton */

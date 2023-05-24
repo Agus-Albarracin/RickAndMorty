@@ -11,6 +11,8 @@ const handleChange = e => {
 
    return (
       <div className={style.container}>
+
+         
          <input className={style.inputCont} 
                 
                 type='search' 
