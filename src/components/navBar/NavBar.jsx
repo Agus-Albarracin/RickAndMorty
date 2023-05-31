@@ -15,6 +15,9 @@ export default function NavBar(props) {
             <Link to="/about">
             <button className="buttonAbout">About</button>
             </Link>
+            <Link to="/favorites">
+            <button className="buttonAbout">❤️</button>
+            </Link>
                 </div>
            
 

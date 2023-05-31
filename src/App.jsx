@@ -3,6 +3,7 @@ import Cards from './components/cards/Cards.jsx';
 import NavBar from './components/navBar/navBar';
 import SearchBar from './components/searchBar/SearchBar.jsx';
 import characters from './data.jsx';
+import Favorites from './components/Favorites/Favs';
 import './App.jsx';
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -91,7 +92,7 @@ const PASSWORD = 'cualquierpassword';
                 }> </Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/detail/:id" element={<Detail />}></Route> 
-                  
+                <Route path="/favorites" element={<Favorites />}></Route>
                   <Route path="*" element={<Error />}> </Route>
               
                 
